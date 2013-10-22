@@ -19,6 +19,8 @@
 		011C29D217E8ED37007D6C8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011C29BA17E8ED37007D6C8D /* UIKit.framework */; };
 		011C29DA17E8ED37007D6C8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 011C29D817E8ED37007D6C8D /* InfoPlist.strings */; };
 		011C29DC17E8ED37007D6C8D /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 011C29DB17E8ED37007D6C8D /* QuizTests.m */; };
+		011C29E817E8ED43007D6C8D /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011C29E617E8ED43007D6C8D /* QuizViewController.m */; };
+		011C29E917E8ED43007D6C8D /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 011C29E717E8ED43007D6C8D /* QuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		011C29D717E8ED37007D6C8D /* QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizTests-Info.plist"; sourceTree = "<group>"; };
 		011C29D917E8ED37007D6C8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		011C29DB17E8ED37007D6C8D /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		011C29E517E8ED43007D6C8D /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = SOURCE_ROOT; };
+		011C29E617E8ED43007D6C8D /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = SOURCE_ROOT; };
+		011C29E717E8ED43007D6C8D /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,9 @@
 		011C29BC17E8ED37007D6C8D /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				011C29E517E8ED43007D6C8D /* QuizViewController.h */,
+				011C29E617E8ED43007D6C8D /* QuizViewController.m */,
+				011C29E717E8ED43007D6C8D /* QuizViewController.xib */,
 				011C29C517E8ED37007D6C8D /* QuizAppDelegate.h */,
 				011C29C617E8ED37007D6C8D /* QuizAppDelegate.m */,
 				011C29C817E8ED37007D6C8D /* Images.xcassets */,
@@ -222,6 +230,7 @@
 			files = (
 				011C29C117E8ED37007D6C8D /* InfoPlist.strings in Resources */,
 				011C29C917E8ED37007D6C8D /* Images.xcassets in Resources */,
+				011C29E917E8ED43007D6C8D /* QuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +251,7 @@
 			files = (
 				011C29C317E8ED37007D6C8D /* main.m in Sources */,
 				011C29C717E8ED37007D6C8D /* QuizAppDelegate.m in Sources */,
+				011C29E817E8ED43007D6C8D /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
